@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+.Odin {
+  padding: 10px;
+  margin-top: 10px;
+  max-width: 576px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* responsivo */
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .Odin {
+    font-size: 35px;
+    max-width: 768px;
+    margin: 0 auto; 
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .Odin {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto; 
+    font-size: 45px;
+  }
+}

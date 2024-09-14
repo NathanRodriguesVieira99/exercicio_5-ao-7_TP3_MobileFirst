@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.Odin {
+  max-width: 576px;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 25px;
+  text-align: center;
+  background-color: aqua;
+}
+
+
+.footer p {
+  margin: 0;
+  font-size: 30px;
+  color: black;
+}
+
+/* Responsivos */
+@media (max-width: 768px) {
+  .Odin {
+    max-width: 100%;
+  }
+
+  .footer p {
+    font-size: 25px;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .Odin {
+    max-width: 768px;
+
+    .footer p {
+      font-size: 35px;
+    }
+  }
+
+
+  @media (min-width: 1201px) {
+    .Odin {
+      max-width: 1200px;
+    }
+
+    .footer p {
+      font-size: 45px;
+    }
+  }
+}

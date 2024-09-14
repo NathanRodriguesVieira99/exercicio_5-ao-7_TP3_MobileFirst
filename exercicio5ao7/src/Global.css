@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.OdinPaiDeTodos {
+  max-width: 576px;
+  background-color: aqua;
+  min-width: 320px;
+}
+
+/* responsivo */
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .OdinPaiDeTodos {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .OdinPaiDeTodos {
+    max-width: 1200px;
+  }
+}
